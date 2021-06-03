@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    tools:ignore="ExtraText,InvalidId">
+
+    <ImageView
+        android:id="@+id/list_item_icon"
+        android:layout_width="88dp"
+        android:src="@drawable/five"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:id="@+id/text_container"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/telugu_one"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingLeft="16dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/english_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:paddingLeft="16dp"
+            android:textColor="@color/purple_200" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/play_button"
+        android:layout_width="24dp"
+        android:src="@drawable/baseline_play_arrow_black_24"
+        android:layout_gravity="center_vertical"
+        android:layout_height="24dp"/>
+
+
+
+</LinearLayout>

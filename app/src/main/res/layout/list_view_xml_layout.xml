@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_view"
+    android:orientation="vertical"
+    android:background="@color/tan_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:drawSelectorOnTop="true"
+ />
+<!--tools:context=".NumbersActivity"    ;;;;;;;;;;;;;;; so, that the same can be used for other four activites
+also, colous, family ,phrases etc // now it won't be specific to numbers_activity -->

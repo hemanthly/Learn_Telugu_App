@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress AndroidDomInspection -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.miwok">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="miwok.example.miwok.error_activity"
+            android:label="@string/title_activity_error_activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="miwok.example.miwok.MainActivity"/>
+        </activity>
+        <activity
+            android:name="miwok.example.miwok.FamilyActivity"
+            android:label="@string/category_family"
+            android:parentActivityName="miwok.example.miwok.MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="miwok.example.miwok.MainActivity"/>
+        </activity>
+        <activity
+            android:name="miwok.example.miwok.PhrasesActivity"
+            android:label="@string/category_phrases"
+            android:parentActivityName="miwok.example.miwok.MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="miwok.example.miwok.MainActivity"/>
+        </activity>
+        <activity
+            android:name="miwok.example.miwok.ColorsActivity"
+            android:label="@string/category_colors"
+            android:parentActivityName="miwok.example.miwok.MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="miwok.example.miwok.MainActivity"/>
+        </activity>
+        <activity
+            android:name="miwok.example.miwok.NumbersActivity"
+            android:label="@string/category_numbers"
+            android:parentActivityName="miwok.example.miwok.MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="miwok.example.miwok.MainActivity"/>
+        </activity>
+
+        <activity android:name="miwok.example.miwok.MainActivity"
+            tools:ignore="MissingClass">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
